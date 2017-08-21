@@ -1,7 +1,7 @@
 'use strict'
 
 function yearOfBirth(thisYear=2017, age) {
-  if ( age > 0 ) {
+  if ( age > 0) {
     return thisYear - age;
   } else {
     throw new Error('Cannot have age less than zero!')
